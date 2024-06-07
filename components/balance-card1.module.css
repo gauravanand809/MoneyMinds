@@ -1,0 +1,83 @@
+.supportingText,
+.text {
+  position: relative;
+  line-height: 28px;
+}
+.supportingText {
+  font-size: var(--text-md-regular-size);
+  line-height: 20px;
+}
+.textParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.supportingText1 {
+  position: relative;
+  line-height: 20px;
+}
+.frameParent,
+.supportingTextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.supportingTextWrapper {
+  font-size: var(--text-sm-medium-size);
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.heading,
+.number {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.number {
+  font-size: var(--display-xs-semibold-size);
+  line-height: 32px;
+  font-weight: 600;
+}
+.textAndNumber {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.balanceCard02,
+.textAndAction,
+.textAndNumber {
+  display: flex;
+  align-items: flex-start;
+}
+.textAndAction {
+  backdrop-filter: var(--background-blur-lg);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray1-200);
+  border: 1px solid var(--color-gray1-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  font-size: var(--text-sm-medium-size);
+}
+.balanceCard02 {
+  width: 1096px;
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--br-xs);
+  background-color: var(--primary-600);
+  max-width: 100%;
+  height: 142px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--display-xs-semibold-size);
+  color: var(--jsm-pro-white-900);
+  font-family: var(--text-xs-regular);
+}
